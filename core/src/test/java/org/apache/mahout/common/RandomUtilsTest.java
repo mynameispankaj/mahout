@@ -36,7 +36,7 @@ public final class RandomUtilsTest extends MahoutTestCase {
   }
 
   @Test
-  public void testHashFloat() {
+  public void testHashFloat() throws Exception {
     assertEquals(new Float(0.0f).hashCode(), RandomUtils.hashFloat(0.0f));
     assertEquals(new Float(1.0f).hashCode(), RandomUtils.hashFloat(1.0f));
     assertEquals(new Float(Float.POSITIVE_INFINITY).hashCode(), RandomUtils.hashFloat(Float.POSITIVE_INFINITY));
