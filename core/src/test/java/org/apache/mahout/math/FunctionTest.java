@@ -33,7 +33,7 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
 import static org.junit.Assert.assertEquals;
-
+// Test change: Adhoc 3
 @RunWith(Parameterized.class)
 public class FunctionTest {
   private static final int NUM_POINTS = 100;
