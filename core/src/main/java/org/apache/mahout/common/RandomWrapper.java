@@ -101,9 +101,5 @@ public final class RandomWrapper extends Random {
   public double nextGaussian() {
     return random.nextGaussian();
   }
-  
-  public boolean testBoo() {
-    return random.testBoo();
-  }
 
 }
