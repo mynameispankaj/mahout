@@ -36,6 +36,8 @@ public final class RandomWrapper extends Random {
   RandomWrapper(long seed) {
     random = new MersenneTwister(seed);
   }
+  
+  throw new ArithmeticException("/ by zero");
 
   @Override
   public void setSeed(long seed) {
