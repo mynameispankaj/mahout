@@ -19,7 +19,7 @@
  * Download data from: http://files.grouplens.org/datasets/hetrec2011/hetrec2011-lastfm-2k.zip
  * then run this in the mahout shell.
  */
-
+// import somthing
 import org.apache.mahout.sparkbindings.indexeddataset.IndexedDatasetSpark
 
 // We need to turn our raw text files into RDD[(String, String)] 
